@@ -38,6 +38,7 @@
   h2 {
   font-size: 42px;
   font-weight: lighter;
+  font-family: Oswald, Helvetica;
   margin-bottom: 10px;
   color: white;
   position: relative;
@@ -116,9 +117,6 @@
   font-weight: lighter;
   border: 5px solid;
   padding: 20px 60px;
-  // width: 450px;
-  // min-width: 320px;
-
 }
 
 .contact {
@@ -140,13 +138,19 @@
   font-weight: lighter;
   // min-width: 300px;
   text-align: center;
-  a {
+}
+
+.contact-links a {
   text-align: center;
   text-decoration: none;
   color: white;
   padding: 5px;
-  }
 }
 
+h1, h2, h3 {
+  font-family: Oswald, Helvetica;
+}
 
+p {
+  font-family: Playfair Display, Helvetica;
 
