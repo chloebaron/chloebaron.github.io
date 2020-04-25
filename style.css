@@ -141,6 +141,37 @@
   font-family: Oswald, Helvetica;
 }
 
+.portfolio {
+  height: 100vh;
+  min-height: 100%;
+  z-index:1000;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.portfolio-text {
+  margin-top: 15%;
+}
+
+.portfolio-text h3 {
+  font-size: 40px;
+  font-family: Playfair Display, Helvetica;
+}
+
+.weada {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weada img{
+  height: 150px;
+  margin: 0 20px;
+}
+
 .contact {
   height: 100vh;
   min-height: 100%;
