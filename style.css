@@ -148,12 +148,14 @@
   color: white;
   background: black;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  
 }
 
 .portfolio-text {
-  margin-top: 15%;
+  margin: 40px 10px;
 }
 
 .portfolio-text h3 {
@@ -161,15 +163,29 @@
   font-family: Playfair Display, Helvetica;
 }
 
+.portfolio-text h2 {
+  font-size: 24px;
+  font-family: Playfair Display, Helvetica;
+  /* TODO move writing to the left */
+}
+
 .weada {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .weada img{
-  height: 150px;
-  margin: 0 20px;
+  height: 140px;
+  margin: 0 10px;
+  transition: 1s;
+}
+
+.weada img:hover {
+  height: 200px;
+  margin-top: -10px;
 }
 
 .contact {
