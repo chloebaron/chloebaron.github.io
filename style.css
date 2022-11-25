@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  // min-height: 100%;
   width: 100%;
   min-width: 320px;
   position: fixed;
@@ -159,12 +158,36 @@
 }
 
 .portfolio-text h3 {
-  font-size: 40px;
+  font-size: 16px;
   font-family: Playfair Display, Helvetica;
 }
 
 .portfolio-text h2 {
   font-size: 24px;
+  font-family: Playfair Display, Helvetica;
+  /* TODO move writing to the left */
+}
+
+.portfolio-text h1 {
+  font-size: 32px;
+  font-family: Playfair Display, Helvetica;
+  /* TODO move writing to the left */
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Playfair Display, Helvetica;
+  /* TODO move writing to the left */
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Playfair Display, Helvetica;
+  /* TODO move writing to the left */
+}
+
+h3 {
+  font-size: 16px;
   font-family: Playfair Display, Helvetica;
   /* TODO move writing to the left */
 }
