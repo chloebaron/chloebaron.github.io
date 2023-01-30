@@ -255,5 +255,18 @@ h3 {
   transform: scale(1.2);
 }
 
+/* PORTFOLIO CARDS */
+.portfolio-card {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  margin: 3rem 2rem;
+  padding-top: 30px;
+  border-radius: 15px;
+  color: black;
+  font-weight: bolder;
+}
 
-
+/* .card-img-top {
+  object-fit: cover;
+} */

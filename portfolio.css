@@ -1,0 +1,16 @@
+.ux-portfolio {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    width: 100%;
+    min-width: 320px;
+    position: fixed;
+    margin-bottom: 5px;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    background-image: linear-gradient(rgba(0,0,0,0.8) 100%, rgba(90, 100, 91,0.5)), url("images/case-study.jpeg");
+    background-size: cover !important;
+    color: white;
+  }
