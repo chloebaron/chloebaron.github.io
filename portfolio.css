@@ -26,17 +26,18 @@
         width: 100%;
         z-index: 1;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         position:relative;
-        padding-left: 100px;  
+        /* padding-left: 100px;   */
         /* padding-left: 200px; */
         
     }
 
     .case-study.art {
         margin-top: 100vh;  
-        padding-left: 100px;  
+        /* padding-left: 100px;   */
         left: 0;
     }
 
@@ -51,5 +52,10 @@
 
 
     .study-images {
-        height: 200px;
+        /* height: 300px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* flex-direction: column; */
+
     }
