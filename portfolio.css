@@ -13,6 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none!important;
+    font-family: 'Times New Roman', Times, serif;
     /* right: 50; */
 }
     
@@ -40,7 +42,7 @@
         background: White;
         height: 100%;
         min-height: 100vh;
-        width: 100%;
+        width: 100vw;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -48,7 +50,9 @@
         align-items: center;
         position:relative;
         border-bottom: 5px black;
-        padding: 20px;
+        padding: 10% 0;
+        
+
         /* padding-left: 100px;   */
         /* padding-left: 200px; */
         
@@ -65,7 +69,7 @@
         padding-left: 100px;    
     } */
     .study-details {
-        width: 50vw;
+        width: 60vw;
         min-width: 300px;
         border: 1em black;
     }
@@ -79,4 +83,19 @@
         align-items: center;
         /* flex-direction: column; */
 
+    }
+
+    img {
+        margin: 20px;
+    }
+
+    /* TODO: Change to Playfair */
+/* 
+    h1 {
+        font-family: Playfair Display, Helvetica;
+    } */
+
+    p {
+        font-family: Arial, Helvetica;
+        padding: 10px 0;
     }
