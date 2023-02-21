@@ -56,6 +56,7 @@
   width: 100%;
   z-index: 1;
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   position:relative;
@@ -63,6 +64,7 @@
 
 .about-row {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 30px;
@@ -73,11 +75,15 @@
   flex: 1 1;
   max-width: 900px;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-me h3 {
   font-size: 40px;
   font-family: Playfair Display, Helvetica;
+  margin-bottom: 2rem;
 }
 
 .about-me p {
@@ -103,14 +109,15 @@
 .about-icons {
   flex: 1 1;
   display: flex;
-  flex-direction: column;
+  /* width: 50vw; */
+  /* flex-direction: column; */
   font-size: 72px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .about-icons .fas {
-  margin: 30px 0;
+  margin: 30px;
 }
 
 .skills {
@@ -141,35 +148,55 @@
 }
 
 .portfolio {
-  height: 100vh;
+  height: 100%;
   min-width: 100vw;
-  min-height: 100%;
+  min-height: 100vh;
   z-index:1000;
-  color: white;
-  background: black;
+  color: black;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+/* PORTFOLIO CARDS */
+.portfolio-card {
+  max-height: 300px;
+  /* max-width: 30vw; */
+  min-width: 30vw;
+  /* background-color: ; */
+  margin: 5rem 2rem;
+  padding: 1rem;
+  border-radius: 15px;
+  color: black;
+  font-weight: bolder;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-
+/* .card-img-top {
+  object-fit: cover;
+} */
 
 .portfolio-text {
-  margin: 40px 10px;
-  /* display: flex; */
-  /* align-items: center; */
-  justify-content: left;
+  height: 3rem;
+  margin: 3rem;
 }
 
-.portfolio-text h1 {
-  font-size: 48px;
-  font-family: Playfair Display, Helvetica;
+.portfolio-image {
+    max-width: 100%;
+    max-height: 100%;
+    /* margin: 1rem; */
 }
 
-.portfolio-text h3 {
+.portfolio-card h3 {
   font-size: 16px;
   font-family: Playfair Display, Helvetica;
+  padding: 1rem 0;
 }
 
 .portfolio-text h2 {
@@ -181,6 +208,7 @@
 .portfolio-text h1 {
   font-size: 32px;
   font-family: Playfair Display, Helvetica;
+  /* margin-top: 5rem; */
   /* TODO move writing to the left */
 }
 
@@ -202,31 +230,18 @@ h3 {
   /* TODO move writing to the left */
 }
 
-.weada {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
 
-.weada img{
-  height: 140px;
-  margin: 0 10px;
-  transition: 1s;
-}
-
-.weada img:hover {
-  height: 200px;
+/* .portfolio-card:hover {
+  height: 110%;
   margin-top: -10px;
-}
+} */
 
 .contact {
   height: 100vh;
   min-height: 100%;
   z-index:1000;
-  color: white;
-  background: black;
+  color: black;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -246,28 +261,13 @@ h3 {
   font-size: 48px;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 5px;
 }
 
 .contact-links a:hover {
   text-decoration: none;
-  color: white;
+  color: black;
   transform: scale(1.2);
 }
 
-/* PORTFOLIO CARDS */
-.portfolio-card {
-  height: 200px;
-  width: 300px;
-  background-color: white;
-  margin: 3rem 2rem;
-  padding-top: 30px;
-  border-radius: 15px;
-  color: black;
-  font-weight: bolder;
-}
-
-/* .card-img-top {
-  object-fit: cover;
-} */
